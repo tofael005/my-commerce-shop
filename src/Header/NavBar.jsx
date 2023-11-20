@@ -17,11 +17,11 @@ const NavBar = () => {
                 <h1 className="md:text-[#008ECC]">Welcome to My Commerce</h1>
                 <div className="flex items-center gap-5">
                     <div className="flex items-center gap-2 md:border-r-2 md:border-[#008ECC] pr-4">
-                        <TbTruckDelivery className="md:text-[#008ECC]"/>
+                        <TbTruckDelivery className="md:text-[#008ECC]" />
                         <h1>Track your order</h1>
                     </div>
                     <div className="flex items-center gap-2">
-                        <MdCallEnd className="md:text-[#008ECC]"/>
+                        <MdCallEnd className="md:text-[#008ECC]" />
                         <h1>+880 1966406795</h1>
                     </div>
                 </div>
@@ -37,16 +37,19 @@ const NavBar = () => {
                     }
                 </span>
 
-                <div className={`flex md:w-[800px] items-center duration-300 flex-col py-4 md:p-0 text-white md:text-gray-900 bg-opacity-90 top-16 bg-black md:bg-transparent w-full text-center md:flex-row gap-4 absolute md:static z-50 ${toggle ? "left-0" : "-left-full"}`}>
+                <div className={`flex md:w-[800px] items-center duration-300 flex-col py-4 md:p-0 text-white md:text-gray-900 bg-opacity-100 top-20 bg-black md:bg-transparent w-full text-center md:flex-row gap-4 absolute md:static z-50 ${toggle ? "left-0" : "-left-full"}`}>
                     <div className="md:w-full w-full right-2 px-2">
                         <input className="w-full relative p-3 bg-transparent rounded-md border border-sky-300" type="search" name="" id="" placeholder="Search essentials" />
-                        <FiSearch className=" absolute md:left-[1090px] text-white md:text-black md:top-16 left-[350px] top-9" />
+                        <FiSearch className=" absolute md:left-[1050px] text-white md:text-black md:top-16 left-[350px] top-9" />
                     </div>
                     <div className="flex items-center gap-2 cursor-pointer">
                         <CgProfile className="md:text-xl text-[#008ECC]" />
                         <input className="cursor-pointer" type="button" value="Sign Up/ Sign In" />
                     </div>
-                    <FiShoppingCart className="md:text-2xl text-[#008ECC] cursor-pointer" />
+                    <div className="flex gap-2">
+                        <FiShoppingCart className="md:text-2xl text-[#008ECC] cursor-pointer" />
+                        <h1>Cart</h1>
+                    </div>
                 </div>
             </div>
         </div>
