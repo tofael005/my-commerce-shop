@@ -9,57 +9,87 @@ import slider2 from "../assets/slider/slider2.jpg"
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-import { IoIosArrowForward } from "react-icons/io";
 
 const Banner = () => {
     return (
-        <div className='flex justify-between flex-col md:flex-row mt-3 items-center gap-6 max-w-[1240px] mx-auto'>
+        <div className='flex justify-between flex-col md:flex-row mt-10 items-center gap-6 max-w-[1240px] mx-auto'>
 
-            <div className='md:w-[400px]'>
+            {/* Side Nav menu  */}
+            
+            <div className='md:w-[400px] grid grid-cols-2 md:grid-cols-1 gap-6 md:gap-1 px-2'>
+                <div className="relative md:w-[180px]">
+                    <select className="md:w-[190px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
+                        <option className='cursor-pointer'>Fasion</option>
+                        <option className='cursor-pointer'>Mens Collection</option>
+                        <option className='cursor-pointer'>Womens Collection</option>
+                        <option className='cursor-pointer'>Kids Collection</option>
+                    </select>
+                </div>
+                <div className="relative w-[180px]">
+                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                        <option>Smart Gadget</option>
+                        <option>Smart Watch</option>
+                        <option>Smart Phone</option>
+                        <option>Tablet</option>
+                    </select>
+                </div>
+                <div className="relative w-[180px]">
+                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                        <option>Monitor</option>
+                        <option>Laptop</option>
+                        <option>CPO</option>
+                        <option>Keyboard</option>
+                        <option>Mouse</option>
+                    </select>
+                </div>
+                <div className="relative w-[180px]">
+                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                        <option>Wifi-Router</option>
+                        <option>PC</option>
+                        <option>Desktop</option>
+                        <option>Motherboard</option>
+                        <option>Cable</option>
+                    </select>
+                </div>
+                <div className="relative w-[180px]">
+                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                        <option>Softwer</option>
+                        <option>PhotoShop</option>
+                        <option>Illustrator</option>
+                        <option>Figma</option>
+                        <option>Premiar Pro</option>
+                    </select>
+                </div>
+                <div className="relative w-[180px]">
+                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                        <option>Electronics</option>
+                        <option>Fredge</option>
+                    </select>
+                </div>
+                <div className="relative w-[180px]">
+                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                        <option>Grocery</option>
+                        <option>Fish</option>
+                        <option>Vegitable</option>
+                        <option>Vegitable</option>
+                        <option>Oil</option>
+                    </select>
+                </div>
+                <div className="relative w-[180px]">
+                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                        <option>Grocery</option>
+                        <option>Fish</option>
+                        <option>Vegitable</option>
+                        <option>Vegitable</option>
+                        <option>Oil</option>
+                    </select>
+                </div>
 
-                <div>
-                    <h1> Smart Watch</h1>
-                    <IoIosArrowForward />
-                </div>
-                <div>
-                    <h1>Smart Phone</h1>
-                    <IoIosArrowForward />
-                </div>
-                <div>
-                    <h1>Laptop</h1>
-                    <IoIosArrowForward />
-                </div>
-                <div>
-                    <h1> Tablet</h1>
-                    <IoIosArrowForward />
-                </div>
-                <div>
-                    <h1>Monitor</h1>
-                    <IoIosArrowForward />
-                </div>
-                <div>
-                    <h1>Printer</h1>
-                    <IoIosArrowForward />
-                </div>
-                <div>
-                    <h1>Printer</h1>
-                    <IoIosArrowForward />
-                </div>
-                <div>
-                    <h1>Gamming Box</h1>
-                    <IoIosArrowForward />
-                </div>
-                <div>
-                    <h1>Software</h1>
-                    <IoIosArrowForward />
-                </div>
-                <div>
-                    <h1>Software</h1>
-                    <IoIosArrowForward />
-                </div>
             </div>
 
 
+
+            {/* BANNER SLIDER  */}
 
             <div className='md:w-[800px] w-full'>
                 <Swiper
@@ -74,13 +104,13 @@ const Banner = () => {
                     }}
                     navigation={true}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper rounded object-cover"
+                    className="mySwiper rounded object-cover md:h-[340px]"
                 >
-                    <SwiperSlide><img className='md:h-[450px] md:w-full h-[300px]' src={slider1} alt="" /></SwiperSlide>
-                    <SwiperSlide><img className='md:h-[450px] md:w-full h-[300px]' src={slider2} alt="" /></SwiperSlide>
-                    <SwiperSlide><img className='md:h-[450px] md:w-full h-[300px]' src={slider1} alt="" /></SwiperSlide>
-                    <SwiperSlide><img className='md:h-[450px] md:w-full h-[300px]' src={slider2} alt="" /></SwiperSlide>
-                    <SwiperSlide><img className='md:h-[450px] md:w-full h-[300px]' src={slider1} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider1} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider2} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider1} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider2} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider1} alt="" /></SwiperSlide>
                 </Swiper>
             </div>
         </div>
