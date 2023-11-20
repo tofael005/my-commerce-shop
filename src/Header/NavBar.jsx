@@ -1,5 +1,7 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { TbTruckDelivery } from "react-icons/tb";
+import { BiSolidOffer } from "react-icons/bi";
+
 
 const NavBar = () => {
     return (
@@ -13,6 +15,11 @@ const NavBar = () => {
                     </div>
                     <div>
                         <TbTruckDelivery />
+                        <h1>Track your order</h1>
+                    </div>
+                    <div>
+                        <BiSolidOffer />
+                        <h1>All Offers</h1>
                     </div>
                 </div>
             </div>
