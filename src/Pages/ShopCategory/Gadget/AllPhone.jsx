@@ -2,7 +2,7 @@
 
 const AllPhone = () => {
     return (
-        <div className="max-w-[1240px] mx-auto mt-14">
+        <div className="max-w-[1240px] mx-auto mt-10 px-2">
             <h1>All Gadhets</h1>
         </div>
     );

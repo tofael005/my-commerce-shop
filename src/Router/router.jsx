@@ -9,6 +9,9 @@ import AllSoftware from "../Pages/ShopCategory/Software/AllSoftware";
 import AllPc from "../Pages/ShopCategory/Pc Building/AllPc";
 import AllFrozen from "../Pages/ShopCategory/Frozen/AllFrozen";
 import AllGrocery from "../Pages/ShopCategory/Grocery/AllGrocery";
+import LogIn from "../Log/LogIn";
+import Registration from "../Log/Registration";
+import AddToCart from "../Components/SmartGadget/Phone/Add To Cart/AddToCart";
 
 const router = createBrowserRouter ([
     {
@@ -18,6 +21,18 @@ const router = createBrowserRouter ([
             {
                 path: "/",
                 element: <Home />
+            },
+            {
+                path: "/login",
+                element: <LogIn />
+            },
+            {
+                path: "/registration",
+                element: <Registration />
+            },
+            {
+                path: "/addtocart",
+                element: <AddToCart />
             },
             {
                 path: "/allPhone",
