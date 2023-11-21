@@ -20,7 +20,7 @@ const PhoneHome = () => {
             </div>
             <hr className="border-[#008ECC]" />
 
-            <div className="grid md:grid-cols-5 gap-4 items-center my-14">
+            <div className="grid md:grid-cols-5 gap-4 items-center my-10">
                 <div className="shadow-md bg-slate-100 relative rounded-md">
                     <img className="block mx-auto h-[160px]" src={image1} alt="" />
                     <h1 className="bg-white p-3">Galaxy M13 (4GB) | (64GB)</h1>
@@ -32,7 +32,7 @@ const PhoneHome = () => {
                     <p className="text-[#249B3E] px-3 py-3 bg-white rounded-b-md">Save: BDT 4,500</p>
                     <p className="bg-[#008ECC] absolute -mt-[289px] rounded-s-md text-sm text-white p-2">56% <br /> OFF</p>
                 </div>
-                <div className="shadow-md bg-slate-100 relative rounded-md">
+                <div className="shadow-md bg-slate-100 relative rounded-md border border-[#008ECC]">
                     <img className="block mx-auto h-[160px]" src={image2} alt="" />
                     <h1 className="bg-white p-3">Galaxy M53 (4GB | 64 GB )</h1>
                     <span className="flex gap-4 py-1 px-3 items-center bg-white">

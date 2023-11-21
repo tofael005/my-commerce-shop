@@ -25,47 +25,47 @@ const AllShop = () => {
 
             {/* SHOP CATEGORY  */}
             <div className="grid md:grid-cols-7 items-center gap-5 mt-10">
-                <div>
+                <div className="shadow border border-[#008ECC] rounded-md">
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop1} alt="" />
                     </div>
-                    <Link to="/fashion"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Life Syle & Fashion</h1></Link>
+                    <Link to="/fashion"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Life Syle & Fashion</h1></Link>
                 </div>
-                <div>
+                <div className="shadow rounded-md">
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop6} alt="" />
                     </div>
-                    <Link to="/allPhone"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Gadghet & Device</h1></Link>
+                    <Link to="/allPhone"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Gadghet & Device</h1></Link>
                 </div>
-                <div>
+                <div className="shadow rounded-md">
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop7} alt="" />
                     </div>
-                    <Link to="/electronics"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Electronics</h1></Link>
+                    <Link to="/electronics"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Electronics</h1></Link>
                 </div>
-                <div>
+                <div className="shadow rounded-md">
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop2} alt="" />
                     </div>
-                    <Link to="/software"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Teck & Software</h1></Link>
+                    <Link to="/software"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Teck & Software</h1></Link>
                 </div>
-                <div>
+                <div className="shadow rounded-md">
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop3} alt="" />
                     </div>
-                    <Link to="/pcBuilding"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">PC Building</h1></Link>
+                    <Link to="/pcBuilding"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">PC Building</h1></Link>
                 </div>
-                <div>
+                <div className="shadow rounded-md">
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop4} alt="" />
                     </div>
-                    <Link to="/frozen"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Frozen Food</h1></Link>
+                    <Link to="/frozen"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Frozen Food</h1></Link>
                 </div>
-                <div>
+                <div className="shadow rounded-md">
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop5} alt="" />
                     </div>
-                  <Link to="/grocery"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Items</h1></Link>
+                  <Link to="/grocery"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Items</h1></Link>
                 </div>
             </div>
         </div>

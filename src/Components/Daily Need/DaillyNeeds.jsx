@@ -1,6 +1,12 @@
 import { IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
-
+import image1 from "../../assets/Dailly need/grocery.png"
+import image2 from "../../assets/Dailly need/vegetables.jpeg"
+import image3 from "../../assets/Dailly need/fruits.jpg"
+import image4 from "../../assets/Dailly need/fish.jpeg"
+import image5 from "../../assets/Dailly need/chicken.jpg"
+import image6 from "../../assets/Dailly need/beaf.jpeg"
+import image7 from "../../assets/Dailly need/dessert.jpg"
 
 const DaillyNeeds = () => {
     return (
@@ -15,6 +21,83 @@ const DaillyNeeds = () => {
                 </Link>
             </div>
             <hr className="border-[#008ECC]" />
+
+            {/* DAILLY NEEDS  */}
+
+            <div className="grid md:grid-cols-7 gap-4 mt-10 items-center">
+                <div className="rounded-md shadow border border-[#008ECC]">
+                    <div className="p-3 bg-slate-100 rounded-t-md">
+                        <img className="rounded-md w-[200px] h-[140px] block mx-auto" src={image1} alt="" />
+                    </div>
+                    <div className="text-center cursor-pointer">
+                        <Link to="/grocery">
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                        </Link>
+                    </div>
+                </div>
+                <div className="rounded-md shadow">
+                    <div className="p-3 bg-slate-100 rounded-t-md">
+                        <img className="rounded-md w-[200px] h-[140px] block mx-auto" src={image2} alt="" />
+                    </div>
+                    <div className="text-center cursor-pointer">
+                        <Link to="/grocery">
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                        </Link>
+                    </div>
+                </div>
+                <div className="rounded-md shadow">
+                    <div className="p-3 bg-slate-100 rounded-t-md">
+                        <img className="rounded-md w-[200px] h-[140px] block mx-auto" src={image3} alt="" />
+                    </div>
+                    <div className="text-center cursor-pointer">
+                        <Link to="/grocery">
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                        </Link>
+                    </div>
+                </div>
+                <div className="rounded-md shadow">
+                    <div className="p-3 bg-slate-100 rounded-t-md">
+                        <img className="rounded-md w-[200px] h-[140px] block mx-auto" src={image4} alt="" />
+                    </div>
+                    <div className="text-center cursor-pointer">
+                        <Link to="/grocery">
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                        </Link>
+                    </div>
+                </div>
+                <div className="rounded-md shadow">
+                    <div className="p-3 bg-slate-100 rounded-t-md">
+                        <img className="rounded-md w-[200px] h-[140px] block mx-auto" src={image5} alt="" />
+                    </div>
+                    <div className="text-center cursor-pointer">
+                        <Link to="/grocery">
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                        </Link>
+                    </div>
+                </div>
+                <div className="rounded-md shadow">
+                    <div className="p-3 bg-slate-100 rounded-t-md">
+                        <img className="rounded-md w-[200px] h-[140px] block mx-auto" src={image6} alt="" />
+                    </div>
+                    <div className="text-center cursor-pointer">
+                        <Link to="/grocery">
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                        </Link>
+                    </div>
+                </div>
+                <div className="rounded-md shadow">
+                    <div className="p-3 bg-slate-100 rounded-t-md">
+                        <img className="rounded-md w-[200px] h-[140px] block mx-auto" src={image7} alt="" />
+                    </div>
+                    <div className="text-center cursor-pointer">
+                        <Link to="/grocery">
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     );
 };
