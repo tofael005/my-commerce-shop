@@ -7,6 +7,7 @@ import { useState } from "react";
 import { TbTruckDelivery } from "react-icons/tb";
 import { MdCallEnd } from "react-icons/md";
 import logo from "../assets/logo.png"
+import { Link } from "react-router-dom";
 
 
 const NavBar = () => {
@@ -28,7 +29,7 @@ const NavBar = () => {
             </div>
             <div className="flex justify-between items-center">
                 <div className="md:w-[400]">
-                    <img className="w-[200px]" src={logo} alt="" />
+                   <Link to="/"> <img className="w-[200px]" src={logo} alt="" /></Link>
                 </div>
 
                 <span className='md:hidden'>

@@ -16,25 +16,25 @@ const Banner = () => {
 
             {/* Side Nav menu  */}
 
-            <div className='md:w-[400px] grid grid-cols-2 md:grid-cols-1 gap-6 md:gap-1 px-2'>
-                <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
+            <div className='md:w-[300px] grid grid-cols-2 md:grid-cols-1 gap-6 md:gap-1'>
+                <div className="relative w-[180px] md:w-full">
+                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option className='cursor-pointer'>Fasion</option>
                         <option className='cursor-pointer'>Mens Collection</option>
                         <option className='cursor-pointer'>Womens Collection</option>
                         <option className='cursor-pointer'>Kids Collection</option>
                     </select>
                 </div>
-                <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
+                <div className="relative w-[180px] md:w-full">
+                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Smart Gadget</option>
                         <option>Smart Watch</option>
                         <option>Smart Phone</option>
                         <option>Tablet</option>
                     </select>
                 </div>
-                <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
+                <div className="relative w-[180px] md:w-full">
+                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Monitor</option>
                         <option>Laptop</option>
                         <option>CPO</option>
@@ -42,8 +42,8 @@ const Banner = () => {
                         <option>Mouse</option>
                     </select>
                 </div>
-                <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
+                <div className="relative w-[180px] md:w-full">
+                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Wifi-Router</option>
                         <option>PC</option>
                         <option>Desktop</option>
@@ -51,8 +51,8 @@ const Banner = () => {
                         <option>Cable</option>
                     </select>
                 </div>
-                <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
+                <div className="relative w-[180px] md:w-full">
+                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Softwer</option>
                         <option>PhotoShop</option>
                         <option>Illustrator</option>
@@ -60,21 +60,21 @@ const Banner = () => {
                         <option>Premiar Pro</option>
                     </select>
                 </div>
-                <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
+                <div className="relative w-[180px] md:w-full">
+                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Electronics</option>
                         <option>Fredge</option>
                     </select>
                 </div>
-                <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
+                <div className="relative w-[180px] md:w-full">
+                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Grocery</option>
                         <option>Fish</option>
                         <option>Vegitable</option>
                     </select>
                 </div>
-                <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
+                <div className="relative w-[180px] md:w-full">
+                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Frogen Food</option>
                         <option>Fish</option>
                         <option>Beaf</option>
@@ -87,7 +87,7 @@ const Banner = () => {
 
             {/* BANNER SLIDER  */}
 
-            <div className='md:w-[800px] w-full'>
+            <div className='md:w-[900px] w-full'>
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
@@ -100,7 +100,7 @@ const Banner = () => {
                     }}
                     navigation={true}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper rounded object-cover md:h-[340px]"
+                    className="mySwiper md:rounded object-cover md:h-[340px]"
                 >
                     <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider1} alt="" /></SwiperSlide>
                     <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider2} alt="" /></SwiperSlide>

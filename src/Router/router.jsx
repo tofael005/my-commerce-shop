@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "../Layout/RootLayout";
 import Home from "../Pages/Home/Home";
+import AllPhone from "../Components/SmartGadget/Phone/AllPhone";
 
 const router = createBrowserRouter ([
     {
@@ -10,6 +11,10 @@ const router = createBrowserRouter ([
             {
                 path: "/",
                 element: <Home />
+            },
+            {
+                path: "/allPhone",
+                element: <AllPhone />
             }
         ]
     }
