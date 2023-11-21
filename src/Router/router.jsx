@@ -11,7 +11,8 @@ import AllFrozen from "../Pages/ShopCategory/Frozen/AllFrozen";
 import AllGrocery from "../Pages/ShopCategory/Grocery/AllGrocery";
 import LogIn from "../Log/LogIn";
 import Registration from "../Log/Registration";
-import AddToCart from "../Components/SmartGadget/Phone/Add To Cart/AddToCart";
+import AddToCart from "../Components/Add To Cart/AddToCart";
+
 
 const router = createBrowserRouter ([
     {
