@@ -8,7 +8,7 @@ import brand3 from "../../assets/Top Electronics/realme.png"
 
 const TopElectronics = () => {
     return (
-        <div className="max-w-[1240px] mx-auto mt-10 px-2">
+        <div className="max-w-[1240px] mx-auto mt-10 px-2 mb-16">
             <div className="flex justify-between items-center my-3">
                 <h1>Top <span className="text-[#008ECC] font-bold">Electronics Brand</span></h1>
                 <Link to="/electronics">

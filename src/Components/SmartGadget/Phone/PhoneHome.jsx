@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const PhoneHome = () => {
     return (
-        <div className="max-w-[1240px] mx-auto px-3 mt-16">
+        <div className="max-w-[1240px] mx-auto px-3 mt-16 mb-16">
             <div className="flex justify-between items-center my-3">
                 <h1>Best deal on the <span className="text-[#008ECC] font-bold">Smartphones</span></h1>
                 <Link to="/allPhone">

@@ -12,6 +12,16 @@ import AllGrocery from "../Pages/ShopCategory/Grocery/AllGrocery";
 import LogIn from "../Log/LogIn";
 import Registration from "../Log/Registration";
 import AddToCart from "../Components/Add To Cart/AddToCart";
+import Apple from "../Components/Apple/Apple";
+import BlackBerry from "../Components/Blackberry/BlackBerry";
+import Motorola from "../Components/Motorola/Motorola";
+import Oppo from "../Components/Oppo/Oppo";
+import Realme from "../Components/Realme/Realme";
+import Samsung from "../Components/Samsung/Samsung";
+import Sony from "../Components/Sony/Sony";
+import Mi from "../Components/Mi/Mi";
+import Walton from "../Components/Walton/Walton";
+import Vivo from "../Components/Vivo/Vivo";
 
 
 const router = createBrowserRouter ([
@@ -66,6 +76,46 @@ const router = createBrowserRouter ([
             {
                 path: "/grocery",
                 element: <AllGrocery />
+            },
+            {
+                path: "/apple",
+                element: <Apple />
+            },
+            {
+                path: "/blackberry",
+                element: <BlackBerry />
+            },
+            {
+                path: "/motorola",
+                element: <Motorola />
+            },
+            {
+                path: "/oppo",
+                element: <Oppo/ >
+            },
+            {
+                path: "/realme",
+                element: <Realme />
+            },
+            {
+                path: "/samsung",
+                element: <Samsung />
+            },
+            {
+                path: "/sony",
+                element: <Sony />
+            },
+            {
+                path: "/mi",
+                element: <Mi />
+            },
+            {
+                path: "/walton",
+                element: <Walton />
+            },
+            {
+                path: "/vivo",
+                element: <Vivo />
             }
         ]
     }

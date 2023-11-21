@@ -10,7 +10,7 @@ import shop7 from "../../assets/Shop Category/shop7.jpg"
 
 const AllShop = () => {
     return (
-        <div className="max-w-[1240px] mx-auto px-2 mb-10">
+        <div className="max-w-[1240px] mx-auto px-2 mb-16">
             <div className="flex justify-between items-center my-3">
                 <h1>Shop From <span className="text-[#008ECC] font-bold">Top Categories</span></h1>
                 <Link to="/multiple-shop">

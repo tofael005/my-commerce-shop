@@ -10,7 +10,7 @@ import image7 from "../../assets/Dailly need/dessert.jpg"
 
 const DaillyNeeds = () => {
     return (
-        <div className="max-w-[1240px] mx-auto px-2 mt-10 mb-10">
+        <div className="max-w-[1240px] mx-auto px-2 mt-10 mb-20">
             <div className="flex justify-between items-center my-3">
                 <h1>Dailly <span className="text-[#008ECC] font-bold">Needs</span></h1>
                 <Link to="/allPhone">
