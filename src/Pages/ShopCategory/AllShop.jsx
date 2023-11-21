@@ -12,7 +12,7 @@ const AllShop = () => {
     return (
         <div className="max-w-[1240px] mx-auto px-2 mb-10">
             <div className="flex justify-between items-center my-3">
-                <h1>Shop From <span>Top Categories</span></h1>
+                <h1>Shop From <span className="text-[#008ECC] font-bold">Top Categories</span></h1>
                 <Link to="/multiple-shop">
                     <div className="flex gap-2 items-center cursor-pointer hover:bg-[#008ECC] duration-300 hover:text-white px-3 rounded">
                         <h1>View All</h1>
@@ -29,43 +29,43 @@ const AllShop = () => {
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop1} alt="" />
                     </div>
-                    <h1>Life Syle & Fashion</h1>
+                    <Link to="/fashion"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Life Syle & Fashion</h1></Link>
                 </div>
                 <div>
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop6} alt="" />
                     </div>
-                    <h1>Gadghet & Device</h1>
+                    <Link to="/allPhone"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Gadghet & Device</h1></Link>
                 </div>
                 <div>
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop7} alt="" />
                     </div>
-                    <h1>Electronics</h1>
+                    <Link to="/electronics"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Electronics</h1></Link>
                 </div>
                 <div>
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop2} alt="" />
                     </div>
-                    <h1>Teck & Software</h1>
+                    <Link to="/software"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Teck & Software</h1></Link>
                 </div>
                 <div>
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop3} alt="" />
                     </div>
-                    <h1>PC Building</h1>
+                    <Link to="/pcBuilding"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">PC Building</h1></Link>
                 </div>
                 <div>
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop4} alt="" />
                     </div>
-                    <h1>Frozen Food</h1>
+                    <Link to="/frozen"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Frozen Food</h1></Link>
                 </div>
                 <div>
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop5} alt="" />
                     </div>
-                    <h1>Grocery Items</h1>
+                  <Link to="/grocery"><h1 className="my-2 text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Items</h1></Link>
                 </div>
             </div>
         </div>
