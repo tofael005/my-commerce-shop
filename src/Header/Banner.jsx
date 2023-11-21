@@ -15,10 +15,10 @@ const Banner = () => {
         <div className='flex justify-between flex-col md:flex-row mt-10 items-center gap-6 max-w-[1240px] mx-auto'>
 
             {/* Side Nav menu  */}
-            
+
             <div className='md:w-[400px] grid grid-cols-2 md:grid-cols-1 gap-6 md:gap-1 px-2'>
-                <div className="relative md:w-[180px]">
-                    <select className="md:w-[190px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
+                <div className="relative w-[180px]">
+                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option className='cursor-pointer'>Fasion</option>
                         <option className='cursor-pointer'>Mens Collection</option>
                         <option className='cursor-pointer'>Womens Collection</option>
@@ -26,7 +26,7 @@ const Banner = () => {
                     </select>
                 </div>
                 <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Smart Gadget</option>
                         <option>Smart Watch</option>
                         <option>Smart Phone</option>
@@ -34,7 +34,7 @@ const Banner = () => {
                     </select>
                 </div>
                 <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Monitor</option>
                         <option>Laptop</option>
                         <option>CPO</option>
@@ -43,7 +43,7 @@ const Banner = () => {
                     </select>
                 </div>
                 <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Wifi-Router</option>
                         <option>PC</option>
                         <option>Desktop</option>
@@ -52,7 +52,7 @@ const Banner = () => {
                     </select>
                 </div>
                 <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Softwer</option>
                         <option>PhotoShop</option>
                         <option>Illustrator</option>
@@ -61,30 +61,26 @@ const Banner = () => {
                     </select>
                 </div>
                 <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Electronics</option>
                         <option>Fredge</option>
                     </select>
                 </div>
                 <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
+                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
                         <option>Grocery</option>
                         <option>Fish</option>
                         <option>Vegitable</option>
-                        <option>Vegitable</option>
-                        <option>Oil</option>
                     </select>
                 </div>
                 <div className="relative w-[180px]">
-                    <select className="w-[180px] p-2 cursor-pointer text-gray-500 bg-white border rounded-md">
-                        <option>Grocery</option>
+                    <select className="w-[180px] p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
+                        <option>Frogen Food</option>
                         <option>Fish</option>
-                        <option>Vegitable</option>
-                        <option>Vegitable</option>
-                        <option>Oil</option>
+                        <option>Beaf</option>
+                        <option>Chicken</option>
                     </select>
                 </div>
-
             </div>
 
 
