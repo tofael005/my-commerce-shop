@@ -20,7 +20,7 @@ const PhoneHome = () => {
             </div>
             <hr className="border-[#008ECC]" />
 
-            <div className="grid md:grid-cols-5 gap-4 items-center my-7">
+            <div className="grid md:grid-cols-5 gap-4 items-center my-14">
                 <div className="shadow-md bg-slate-100 relative rounded-md">
                     <img className="block mx-auto h-[160px]" src={image1} alt="" />
                     <h1 className="bg-white p-3">Galaxy M13 (4GB) | (64GB)</h1>

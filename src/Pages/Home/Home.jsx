@@ -1,5 +1,6 @@
 import PhoneHome from "../../Components/SmartGadget/Phone/PhoneHome";
 import Banner from "../../Header/Banner";
+import AllShop from "../ShopCategory/AllShop";
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Banner />
             <PhoneHome />
+            <AllShop />
         </div>
     );
 };

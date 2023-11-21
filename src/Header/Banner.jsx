@@ -8,6 +8,7 @@ import slider1 from "../assets/slider/slider1.jpg"
 import slider2 from "../assets/slider/slider2.jpg"
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 
 const Banner = () => {
