@@ -7,7 +7,7 @@ const SingleApple = ({ SinglePhone }) => {
             <div className="bg-white rounded-md shadow-lg">
                 <img className="block mx-auto p-9" src={image} alt="" />
                 <div className="px-4 my-2">
-                    <h1 className="font-bold my-3">Model: {title}</h1>
+                    <h1 className="font-bold my-3">{title}</h1>
                     <p>Color: {color}</p>
                     <p>Storage: {storage}</p>
                     <p className="font-bold">Price: BDT {price}</p>

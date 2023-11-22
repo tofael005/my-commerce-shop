@@ -1,0 +1,37 @@
+[
+    {
+        "title" : "BlackBerry Aroura",
+        "image" : "https://i.ibb.co/87PLbx4/bb-dtek-60r.jpg",
+        "color" : "Black",
+        "storage" : "128 GB",
+        "price" : "44,999"
+    },
+    {
+        "title" : "BlackBerry DTL",
+        "image" : "https://i.ibb.co/th0tvMz/blackberry-aurora.jpg",
+        "color" : "Black",
+        "storage" : "128 GB",
+        "price" : "34,999"
+    },
+    {
+        "title" : "BlackBerry Key",
+        "image" : "https://i.ibb.co/2czFrNN/blackberry-key2-le.jpg",
+        "color" : "Black",
+        "storage" : "128 GB",
+        "price" : "54,999"
+    },
+    {
+        "title" : "BlackBerry Key-2",
+        "image" : "https://i.ibb.co/B6kz5pD/blackberry-key2-new.jpg",
+        "color" : "Black",
+        "storage" : "128 GB",
+        "price" : "64,999"
+    },
+    {
+        "title" : "BlackBerry Motion",
+        "image" : "https://i.ibb.co/qWvdqNQ/blackberry-motion.jpg",
+        "color" : "Black",
+        "storage" : "128 GB",
+        "price" : "44,999"
+    }
+]

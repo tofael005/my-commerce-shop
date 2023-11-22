@@ -6,8 +6,14 @@ import 'swiper/css/navigation';
 
 import slider1 from "../assets/slider/slider1.jpg"
 import slider2 from "../assets/slider/slider2.jpg"
+import slider3 from "../assets/slider/360_F_465465254_1pN9MGrA831idD6zIBL7q8rnZZpUCQTy.jpg"
+import slider4 from "../assets/slider/grocery-sale-retail-or-e-commerce-banner-ad-design-template-67720435bb809be27f46dfb1dd44c6fa_screen.jpg"
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+
+
+
 import { Link } from 'react-router-dom';
 
 
@@ -17,78 +23,44 @@ const Banner = () => {
 
             {/* Side Nav menu  */}
 
-            <div className='md:w-[300px] grid grid-cols-2 md:grid-cols-1 gap-6 md:gap-1'>
-                <div className="relative w-[180px] md:w-full">
-                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
-                        <option className='cursor-pointer'>Fasion</option>
-                        <option className='cursor-pointer'>Mens Collection</option>
-                        <option className='cursor-pointer'>Womens Collection</option>
-                        <option className='cursor-pointer'>Kids Collection</option>
-                    </select>
-                </div>
-                <div className="relative w-[180px] md:w-full">
-                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
-                        <option>Smart Gadget</option>
-                        <option>Smart Watch</option>
-                        <option>Smart Phone</option>
-                        <option>Tablet</option>
-                    </select>
-                </div>
-                <div className="relative w-[180px] md:w-full">
-                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
-                        <option>Monitor</option>
-                        <option>Laptop</option>
-                        <option>CPO</option>
-                        <option>Keyboard</option>
-                        <option>Mouse</option>
-                    </select>
-                </div>
-                <div className="relative w-[180px] md:w-full">
-                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
-                        <option>Wifi-Router</option>
-                        <option>PC</option>
-                        <option>Desktop</option>
-                        <option>Motherboard</option>
-                        <option>Cable</option>
-                    </select>
-                </div>
-                <div className="relative w-[180px] md:w-full">
-                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
-                        <option>Softwer</option>
-                        <option>PhotoShop</option>
-                        <option>Illustrator</option>
-                        <option>Figma</option>
-                        <option>Premiar Pro</option>
-                    </select>
-                </div>
-                <div className="relative w-[180px] md:w-full">
-                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
-                        <option>Electronics</option>
-                        <option>Fredge</option>
-                    </select>
-                </div>
-                <div className="relative w-[180px] md:w-full">
-                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
-                        <option>Grocery</option>
-                        <option>Fish</option>
-                        <option>Vegitable</option>
-                    </select>
-                </div>
-                <div className="relative w-[180px] md:w-full">
-                    <select className="w-[180px] md:w-full p-2 hover:bg-[#008ECC] duration-300 hover:text-white cursor-pointer text-gray-500 bg-white border rounded-md">
-                        <option>Frogen Food</option>
-                        <option>Fish</option>
-                        <option>Beaf</option>
-                        <option>Chicken</option>
-                    </select>
-                </div>
+            <div className='md:w-[200px] grid grid-cols-2 md:grid-cols-1 gap-3 md:gap-1'>
+
+                {/* <div className='dropdown'>
+                    <button className='btn border px-[35px] py-3 rounded-t-md w-full shadow-md text-lg uppercase'>Fashion</button>
+                    <div className='content'>
+                        <Link to="/fashion"><li>Mens Collection</li></Link>
+                        <li>Mens Collection</li>
+                    </div>
+                </div> */}
+
+                <Link to="/fashion">
+                    <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">LIFE STYLE</p>
+                </Link>
+                <Link to="/allPhone">
+                    <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">GADGHET & DEVICE</p>
+                </Link>
+                <Link to="/electronics">
+                    <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">ELECTRONICS</p>
+                </Link>
+                <Link to="/software">
+                    <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">TECK & SOFTWARE</p>
+                </Link>
+                <Link to="/pcBuilding">
+                    <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">PC BUILDING</p>
+                </Link>
+                <Link to="/frozen">
+                    <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">FROZEN FOODS</p>
+                </Link>
+                <Link to="/grocery">
+                    <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">GROCERY ITEMS</p>
+                </Link>
             </div>
 
 
 
             {/* BANNER SLIDER  */}
 
-            <div className='md:w-[900px] w-full'>
+            <div className='md:w-[1000px] w-full'>
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
@@ -97,16 +69,17 @@ const Banner = () => {
                         disableOnInteraction: false,
                     }}
                     pagination={{
-                        clickable: true,
+                        clickable: false,
                     }}
-                    navigation={true}
+                    navigation={false}
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper md:rounded object-cover md:h-[340px]"
                 >
                     <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider1} alt="" /></SwiperSlide>
                     <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider2} alt="" /></SwiperSlide>
-                    <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider1} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider3} alt="" /></SwiperSlide>
                     <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider2} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider4} alt="" /></SwiperSlide>
                     <SwiperSlide><img className='md:h-[340px] md:w-full h-[250px]' src={slider1} alt="" /></SwiperSlide>
                 </Swiper>
             </div>

@@ -41,7 +41,7 @@ const DaillyNeeds = () => {
                     </div>
                     <div className="text-center cursor-pointer">
                         <Link to="/grocery">
-                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Vagetable</h1>
                         </Link>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const DaillyNeeds = () => {
                     </div>
                     <div className="text-center cursor-pointer">
                         <Link to="/grocery">
-                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Fruits</h1>
                         </Link>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const DaillyNeeds = () => {
                     </div>
                     <div className="text-center cursor-pointer">
                         <Link to="/grocery">
-                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Fish</h1>
                         </Link>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ const DaillyNeeds = () => {
                     </div>
                     <div className="text-center cursor-pointer">
                         <Link to="/grocery">
-                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Broilar Chicken</h1>
                         </Link>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ const DaillyNeeds = () => {
                     </div>
                     <div className="text-center cursor-pointer">
                         <Link to="/grocery">
-                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Beaf Meat</h1>
                         </Link>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ const DaillyNeeds = () => {
                     </div>
                     <div className="text-center cursor-pointer">
                         <Link to="/grocery">
-                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Needs</h1>
+                            <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Deserts</h1>
                         </Link>
                     </div>
                 </div>
