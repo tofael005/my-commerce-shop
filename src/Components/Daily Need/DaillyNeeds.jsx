@@ -13,7 +13,7 @@ const DaillyNeeds = () => {
         <div className="max-w-[1240px] mx-auto px-2 mt-10 mb-20">
             <div className="flex justify-between items-center my-3">
                 <h1>Dailly <span className="text-[#008ECC] font-bold">Needs</span></h1>
-                <Link to="/allPhone">
+                <Link to="/grocery">
                     <div className="flex gap-2 items-center cursor-pointer hover:bg-[#008ECC] duration-300 hover:text-white px-3 rounded">
                         <h1>View All</h1>
                         <IoIosArrowForward />

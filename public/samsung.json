@@ -1,0 +1,100 @@
+[
+    {
+        "title" : "Samsung Z Fold",
+        "image" : "https://i.ibb.co/m0W2dnL/z-fold.png",
+        "color" : "Light Purple",
+        "storage" : "256 GB",
+        "price" : "1,45,999"
+    },
+    {
+        "title" : "Samsung S23 Ultra",
+        "image" : "https://i.ibb.co/N9VMRHD/s23-ultra.webp",
+        "color" : "Light Purple",
+        "storage" : "256 GB",
+        "price" : "1,40,999"
+    },
+    {
+        "title" : "Samsung S21 Ultra",
+        "image" : "https://i.ibb.co/b1cd0Ld/s21-ultra.webp",
+        "color" : "Light Purple",
+        "storage" : "256 GB",
+        "price" : "69,999"
+    },
+    {
+        "title" : "Samsung S22 Plus",
+        "image" : "https://i.ibb.co/5WHcy2S/s22.webp",
+        "color" : "Light Purple",
+        "storage" : "256 GB",
+        "price" : "1,00,999"
+    },
+    {
+        "title" : "Samsung S21 FE",
+        "image" : "https://i.ibb.co/48RzvjS/s21-fe.webp",
+        "color" : "Light Purple",
+        "storage" : "256 GB",
+        "price" : "45,999"
+    },
+    {
+        "title" : "Samsung S22 Ultra",
+        "image" : "https://i.ibb.co/MhWKP4R/s22-ultra.webp",
+        "color" : "Space Gray",
+        "storage" :"256 GB",
+        "price" : "1,00,999"
+    },
+    {
+        "title" : "Samsung Z Flip",
+        "image" : "https://i.ibb.co/5YYYNP5/z-flip-fold.webp",
+        "color" : "Space Silver",
+        "storage" :"256 GB",
+        "price" : "1,40,999"
+    },
+    {
+        "title" : "Samsung Tab S6",
+        "image" : "https://i.ibb.co/djTv1b6/tab-s6.webp",
+        "color" : "Space Silver",
+        "storage" :"256 GB",
+        "price" : "40,999"
+    },
+    {
+        "title" : "Samsung Note 10 Plus",
+        "image" : "https://i.ibb.co/qmT9g73/note-10.jpg",
+        "color" : "Space Silver",
+        "storage" :"256 GB",
+        "price" : "40,999"
+    },
+    {
+        "title" : "Samsung Note 20 Plus",
+        "image" : "https://i.ibb.co/vkRZY1W/Note-20.webp",
+        "color" : "Space Silver",
+        "storage" :"256 GB",
+        "price" : "60,999"
+    },
+    {
+        "title" : "Samsung A54",
+        "image" : "https://i.ibb.co/c28pz56/a54.webp",
+        "color" : "Space Silver",
+        "storage" :"256 GB",
+        "price" : "39,999"
+    },
+    {
+        "title" : "Samsung A34",
+        "image" : "https://i.ibb.co/XtvyYsw/a34.webp",
+        "color" : "Space Silver",
+        "storage" :"256 GB",
+        "price" : "29,999"
+    },
+    {
+        "title" : "Samsung A24",
+        "image" : "https://i.ibb.co/SRY0s2N/a24.webp",
+        "color" : "Space Silver",
+        "storage" :"256 GB",
+        "price" : "24,999"
+    },
+    {
+        "title" : "Samsung Note 10 Lite",
+        "image" : "https://i.ibb.co/T14mX9M/note-10-lite.png",
+        "color" : "Space Silver",
+        "storage" :"256 GB",
+        "price" : "28,999"
+    }
+]

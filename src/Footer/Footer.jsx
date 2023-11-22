@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div className="max-w-[1240px] mx-auto mt-10 px-2 bg-[#d1eff9]">
+        <div className="max-w-[1240px] mx-auto px-2 bg-[#d1eff9]">
             <div className="grid md:grid-cols-3 gap-10 py-10">
 
 

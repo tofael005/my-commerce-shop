@@ -1,98 +1,98 @@
 [
     {
         "title" : "Iphone 14 Pro Max",
-        "image" : "https://i.ibb.co/p21KgqD/iphone-14-pro.webp",
+        "image" : "https://i.ibb.co/rxFtw32/14-pro-max.webp",
         "color" : "Deep Pueple",
         "storage" : "256 GB",
         "price" : "1,18,000"
     },
     {
         "title" : "Iphone 14 Pro",
-        "image" : "https://i.ibb.co/4pRGzps/iphon-14-pro-max.jpg",
+        "image" : "https://i.ibb.co/vdVCWdR/14-pro.webp",
         "color" :"Deep Pueple",
         "storage" : "128 GB",
         "price" : "1,02,000"
     },
     {
         "title" : "Iphone 11 Pro Max",
-        "image" : "https://i.ibb.co/HGgc11F/iphone-11-pro-max.webp",
+        "image" : "https://i.ibb.co/N3tv0LC/11-pro-max.webp",
         "color" : "All Color Available",
         "storage" :"256 GB",
         "price" : "78,000"
     },
     {
         "title" : "Iphone 15 Pro Max",
-        "image" : "https://i.ibb.co/ryS0hgr/iphone-15-pro-max.png",
+        "image" : "https://i.ibb.co/5GmpWNX/15-pro-max.webp",
         "color" : "Space Grey",
         "storage" : "512 GB",
         "price" : "1,56,999"
     },
     {
         "title" : "Iphone 15 Pro",
-        "image" : "https://i.ibb.co/CQFt388/iphone-15-pro.jpg",
+        "image" : "https://i.ibb.co/fCM2rJR/15-pro.webp",
         "color" : "Titanium",
         "storage" : "256 GB",
         "price" : "1,28,000"
     },
     {
         "title" :"Iphone 13 Pro Max",
-        "image" : "https://i.ibb.co/JdSP19w/iphone-13-pro-max.webp",
+        "image" : "https://i.ibb.co/VHJjGrx/13-pro-max.webp",
         "color" : "Space Grey",
         "storage" :"256 GB",
         "price" : "88,000"
     },
     {
         "title" : "Iphone 13 Plus",
-        "image" : "https://i.ibb.co/bg0x1xp/iphone-13-plus.jpg",
+        "image" : "https://i.ibb.co/qsWcPgw/13-plus.webp",
         "color" :"All Color Available",
         "storage" :"128 GB",
         "price" : "68,999"
     },
     {
         "title" : "Iphone 14 Plus",
-        "image" : "https://i.ibb.co/W0GRfPY/iphone-14-plus.jpg",
+        "image" : "https://i.ibb.co/r7VnFqq/14-plus.webp",
         "color" : "Light Pink",
         "storage" :"256 GB",
         "price" : "78,000"
     },
     {
         "title" : "Iphone XS",
-        "image" : "https://i.ibb.co/sF5061P/iphone-xs.jpg",
+        "image" : "https://i.ibb.co/nkCSHNq/xs.webp",
         "color" : "Gold",
         "storage" : "128 GB",
         "price" : "50,000"
     },
     {
         "title" : "Iphone 13",
-        "image" : "https://i.ibb.co/NyBVJCp/iphon-13-plus.jpg",
+        "image" : "https://i.ibb.co/HPTGzsq/13.webp",
         "color" : "Light Sky",
         "storage" :"256 GB",
         "price" : "68,999"
     },
     {
         "title" : "Iphone Xs Max",
-        "image" : "https://i.ibb.co/myCFWRx/Phone-Xs-max.webp",
+        "image" : "https://i.ibb.co/wN2Fssk/xs-max.webp",
         "color" : "Gold",
         "storage" : "256 GB",
         "price" : "58,999"
     },
     {
         "title" : "Iphone 6 Plus",
-        "image" : "https://i.ibb.co/bmKhnMV/iphon-6.webp",
+        "image" : "https://i.ibb.co/5r5nCCh/6s-plus.webp",
         "color" : "Light Pink",
         "storage" :"128 GB",
         "price" : "26,999"
     },
     {
         "title" : "Iphone SE",
-        "image" : "https://i.ibb.co/VJGv6z4/iphone-se.webp",
+        "image" : "https://i.ibb.co/hmxcbc6/se.webp",
         "color" : "Rose Gold",
         "storage" :"128 GB",
         "price" : "30,000"
     },
     {
         "title" : "Iphone 6S",
-        "image" : "https://i.ibb.co/J5K9Jt8/iphone-6s.jpg",
+        "image" : "https://i.ibb.co/YjMYDYK/6s.webp",
         "color" : "Rose Gold",
         "storage" :"128 GB",
         "price" : "28,999"
