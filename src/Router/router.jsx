@@ -22,6 +22,9 @@ import Sony from "../Components/Sony/Sony";
 import Mi from "../Components/Mi/Mi";
 import Walton from "../Components/Walton/Walton";
 import Vivo from "../Components/Vivo/Vivo";
+import GirlsCollection from "../Pages/ShopCategory/Fassion/GirlsCollection/GirlsCollection";
+import MenCollection from "../Pages/ShopCategory/Fassion/MenCollection/MenCollection";
+import KidsCollection from "../Pages/ShopCategory/Fassion/KidsCollection/KidsCollection";
 
 
 const router = createBrowserRouter ([
@@ -116,6 +119,18 @@ const router = createBrowserRouter ([
             {
                 path: "/vivo",
                 element: <Vivo />
+            },
+            {
+                path: "/girls",
+                element: <GirlsCollection />
+            },
+            {
+                path: "/mens",
+                element: <MenCollection />
+            },
+            {
+                path: "/kids",
+                element: <KidsCollection />
             }
         ]
     }

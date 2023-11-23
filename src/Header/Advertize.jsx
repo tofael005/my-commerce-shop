@@ -35,7 +35,7 @@ const Advertize = () => {
                 }}
                 navigation={false}
                 modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper md:w-[1240px] mx-auto"
+                className="mySwiper md:w-[1240px] rounded-md mx-auto"
             >
                 <SwiperSlide><img className='w-full h-[150px]' src={banner1} alt="" /></SwiperSlide>
                 <SwiperSlide><img className='w-full h-[150px]' src={banner2} alt="" /></SwiperSlide>
