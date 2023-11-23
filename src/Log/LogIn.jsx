@@ -15,8 +15,6 @@ const LogIn = () => {
                         <div className="rounded-md">
                             <h1 className="text-3xl my-3 font-semibold text-white text-center">Log In</h1>
                             <form className="" action="">
-                                <label className="text-xl text-white font-semibold" htmlFor="">Name: </label><br />
-                                <input className="md:w-[500px] mt-1 mb-2 w-[350px] p-3 rounded-md bg-transparent border" type="text" name="name" id="" placeholder="Enter your name" /><br />
                                 <label className="text-xl text-white font-semibold" htmlFor="">Email: </label><br />
                                 <input className="md:w-[500px] mt-1 mb-2 w-[350px] p-3 rounded-md border bg-transparent " type="email" name="email" id="" placeholder="Enter your email" /><br />
                                 <label className="text-xl text-white font-semibold" htmlFor="">Password: </label><br />

@@ -4,6 +4,7 @@
         "image" : "https://i.ibb.co/rxFtw32/14-pro-max.webp",
         "color" : "Deep Pueple",
         "storage" : "256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "1,18,000"
     },
     {
@@ -11,6 +12,7 @@
         "image" : "https://i.ibb.co/vdVCWdR/14-pro.webp",
         "color" :"Deep Pueple",
         "storage" : "128 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "1,02,000"
     },
     {
@@ -18,6 +20,7 @@
         "image" : "https://i.ibb.co/N3tv0LC/11-pro-max.webp",
         "color" : "All Color Available",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "78,000"
     },
     {
@@ -25,6 +28,7 @@
         "image" : "https://i.ibb.co/5GmpWNX/15-pro-max.webp",
         "color" : "Space Grey",
         "storage" : "512 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "1,56,999"
     },
     {
@@ -32,6 +36,7 @@
         "image" : "https://i.ibb.co/fCM2rJR/15-pro.webp",
         "color" : "Titanium",
         "storage" : "256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "1,28,000"
     },
     {
@@ -39,6 +44,7 @@
         "image" : "https://i.ibb.co/VHJjGrx/13-pro-max.webp",
         "color" : "Space Grey",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "88,000"
     },
     {
@@ -46,6 +52,7 @@
         "image" : "https://i.ibb.co/qsWcPgw/13-plus.webp",
         "color" :"All Color Available",
         "storage" :"128 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "68,999"
     },
     {
@@ -53,6 +60,7 @@
         "image" : "https://i.ibb.co/r7VnFqq/14-plus.webp",
         "color" : "Light Pink",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "78,000"
     },
     {
@@ -60,6 +68,7 @@
         "image" : "https://i.ibb.co/nkCSHNq/xs.webp",
         "color" : "Gold",
         "storage" : "128 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "50,000"
     },
     {
@@ -67,6 +76,7 @@
         "image" : "https://i.ibb.co/HPTGzsq/13.webp",
         "color" : "Light Sky",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "68,999"
     },
     {
@@ -74,6 +84,7 @@
         "image" : "https://i.ibb.co/wN2Fssk/xs-max.webp",
         "color" : "Gold",
         "storage" : "256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "58,999"
     },
     {
@@ -81,6 +92,7 @@
         "image" : "https://i.ibb.co/5r5nCCh/6s-plus.webp",
         "color" : "Light Pink",
         "storage" :"128 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "26,999"
     },
     {
@@ -88,6 +100,7 @@
         "image" : "https://i.ibb.co/hmxcbc6/se.webp",
         "color" : "Rose Gold",
         "storage" :"128 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "30,000"
     },
     {
@@ -95,6 +108,7 @@
         "image" : "https://i.ibb.co/YjMYDYK/6s.webp",
         "color" : "Rose Gold",
         "storage" :"128 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
         "price" : "28,999"
     }
 ]

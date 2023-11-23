@@ -4,6 +4,8 @@
         "image" : "https://i.ibb.co/m0W2dnL/z-fold.png",
         "color" : "Light Purple",
         "storage" : "256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "1,45,999"
     },
     {
@@ -11,6 +13,8 @@
         "image" : "https://i.ibb.co/N9VMRHD/s23-ultra.webp",
         "color" : "Light Purple",
         "storage" : "256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "1,40,999"
     },
     {
@@ -18,6 +22,8 @@
         "image" : "https://i.ibb.co/b1cd0Ld/s21-ultra.webp",
         "color" : "Light Purple",
         "storage" : "256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "69,999"
     },
     {
@@ -25,6 +31,8 @@
         "image" : "https://i.ibb.co/5WHcy2S/s22.webp",
         "color" : "Light Purple",
         "storage" : "256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "1,00,999"
     },
     {
@@ -32,6 +40,8 @@
         "image" : "https://i.ibb.co/48RzvjS/s21-fe.webp",
         "color" : "Light Purple",
         "storage" : "256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "45,999"
     },
     {
@@ -39,6 +49,8 @@
         "image" : "https://i.ibb.co/MhWKP4R/s22-ultra.webp",
         "color" : "Space Gray",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "1,00,999"
     },
     {
@@ -46,6 +58,8 @@
         "image" : "https://i.ibb.co/5YYYNP5/z-flip-fold.webp",
         "color" : "Space Silver",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "1,40,999"
     },
     {
@@ -53,6 +67,8 @@
         "image" : "https://i.ibb.co/djTv1b6/tab-s6.webp",
         "color" : "Space Silver",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "40,999"
     },
     {
@@ -60,6 +76,8 @@
         "image" : "https://i.ibb.co/qmT9g73/note-10.jpg",
         "color" : "Space Silver",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "40,999"
     },
     {
@@ -67,6 +85,8 @@
         "image" : "https://i.ibb.co/vkRZY1W/Note-20.webp",
         "color" : "Space Silver",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "60,999"
     },
     {
@@ -74,6 +94,8 @@
         "image" : "https://i.ibb.co/c28pz56/a54.webp",
         "color" : "Space Silver",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "39,999"
     },
     {
@@ -81,6 +103,8 @@
         "image" : "https://i.ibb.co/XtvyYsw/a34.webp",
         "color" : "Space Silver",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "29,999"
     },
     {
@@ -88,6 +112,8 @@
         "image" : "https://i.ibb.co/SRY0s2N/a24.webp",
         "color" : "Space Silver",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "24,999"
     },
     {
@@ -95,6 +121,8 @@
         "image" : "https://i.ibb.co/T14mX9M/note-10-lite.png",
         "color" : "Space Silver",
         "storage" :"256 GB",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+        "rating" : "4.7",
         "price" : "28,999"
     }
 ]
