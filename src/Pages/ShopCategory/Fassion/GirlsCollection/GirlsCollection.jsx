@@ -2,8 +2,9 @@
 
 const GirlsCollection = () => {
     return (
-        <div>
-            <h1>Girls Collection</h1>
+        <div className="max-w-[1240px] mx-auto mt-10 mb-10 px-2">
+            <h1 className="text-center text-6xl font-bold mt-10 mb-3">Girls Collection</h1>
+            <p className="text-center text-xl">Comming SOON!</p>
         </div>
     );
 };

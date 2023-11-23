@@ -1,12 +1,12 @@
 import banner1 from "../../../assets/fashion/girls.webp"
-import banner2 from "../../../assets/fashion/men.jpg"
+import banner2 from "../../../assets/fashion/men-style-sale-promotion-banner-template_99493-77.avif"
 import banner3 from "../../../assets/fashion/kidsBuyingGuide.webp"
 import { Link } from "react-router-dom";
 
 const AllFashion = () => {
     return (
         <div className="max-w-[1240px] mx-auto mt-10 px-2">
-            <div className="grid md:grid-cols-3">
+            <div className="grid md:grid-cols-3 gap-4">
                 <Link to="/girls">
                     <div className="mb-10 shadow-md rounded-md scale-100 hover:scale-95 duration-300">
                         <img className="rounded-md w-full h-[200px]" src={banner1} alt="" />
