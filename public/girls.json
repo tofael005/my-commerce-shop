@@ -2,7 +2,31 @@
     {
         "title" : "Tangile Saree",
         "image" : "https://i.ibb.co/sH34fvX/saree.webp",
-        "colo" : "Black",
+        "color" : "Black",
+        "price" : "26,000"
+    },
+    {
+        "title" : "Tangile Saree",
+        "image" : "https://i.ibb.co/sH34fvX/saree.webp",
+        "color" : "Black",
+        "price" : "26,000"
+    },
+    {
+        "title" : "Tangile Saree",
+        "image" : "https://i.ibb.co/sH34fvX/saree.webp",
+        "color" : "Black",
+        "price" : "26,000"
+    },
+    {
+        "title" : "Tangile Saree",
+        "image" : "https://i.ibb.co/sH34fvX/saree.webp",
+        "color" : "Black",
+        "price" : "26,000"
+    },
+    {
+        "title" : "Tangile Saree",
+        "image" : "https://i.ibb.co/sH34fvX/saree.webp",
+        "color" : "Black",
         "price" : "26,000"
     }
 ]

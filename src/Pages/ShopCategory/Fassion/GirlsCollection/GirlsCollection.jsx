@@ -1,10 +1,24 @@
+import { key } from "localforage";
+import { useEffect, useState } from "react";
+import SingleGirls from "./SingleGirls";
 
 
 const GirlsCollection = () => {
+    const [girls, setGirls] = useState([])
+
+    useEffect(() =>{
+        fetch("/girls.json")
+        .then(res => res.json())
+        .then(data => setGirls(data))
+    })
     return (
         <div className="max-w-[1240px] mx-auto mt-10 mb-10 px-2">
-            <h1 className="text-center text-6xl font-bold mt-10 mb-3">Girls Collection</h1>
-            <p className="text-center text-xl">Comming SOON!</p>
+            
+            <div className="grid md:grid-cols-5 gap-4">
+                {
+                    girls.map((singleGirl, index) => <SingleGirls key={index} singleGirl={singleGirl} />)
+                }
+            </div>
         </div>
     );
 };
