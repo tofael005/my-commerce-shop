@@ -37,12 +37,11 @@ const Advertize = () => {
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper md:w-[1240px] rounded-md mx-auto"
             >
-                <SwiperSlide><img className='w-full h-[150px]' src={banner1} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-full h-[150px]' src={banner2} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-full h-[150px]' src={banner3} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-full h-[150px]' src={banner4} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-full h-[150px]' src={banner5} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-full h-[150px]' src={banner6} alt="" /></SwiperSlide>
+                <SwiperSlide><img className='w-full h-[190px]' src={banner1} alt="" /></SwiperSlide>
+                <SwiperSlide><img className='w-full h-[190px]' src={banner2} alt="" /></SwiperSlide>
+                <SwiperSlide><img className='w-full h-[190px]' src={banner4} alt="" /></SwiperSlide>
+                <SwiperSlide><img className='w-full h-[190px]' src={banner5} alt="" /></SwiperSlide>
+                <SwiperSlide><img className='w-full h-[190px]' src={banner6} alt="" /></SwiperSlide>
                 
             </Swiper>
         </div>

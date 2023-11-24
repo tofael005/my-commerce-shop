@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
 
 
 const SingleApple = ({ SinglePhone }) => {
+
+
     const { title, image, color, storage, price } = SinglePhone;
     return (
         <div className="max-w-[1240px] mx-auto px-2 mt-10 mb-14">
@@ -12,9 +15,11 @@ const SingleApple = ({ SinglePhone }) => {
                     <p>Storage: {storage}</p>
                     <p className="font-bold">Price: BDT {price}</p>
                 </div>
-                <div className="cursor-pointer mt-3 hover:bg-[#c0e7f8] bg-[#008ECC] hover:text-[#008ECC] text-white hover:bg-transparent rounded-b-md duration-300 p-3">
-                    <button className="block w-full mx-auto">Buy Now</button>
-                </div>
+                <Link to="/viewproduct">
+                    <div className="cursor-pointer mt-3 hover:bg-[#c0e7f8] bg-[#008ECC] hover:text-[#008ECC] text-white hover:bg-transparent rounded-b-md duration-300 p-3">
+                        <button className="block w-full mx-auto">Buy Now</button>
+                    </div>
+                </Link>
             </div>
         </div>
     );

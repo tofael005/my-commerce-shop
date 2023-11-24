@@ -25,6 +25,7 @@ import Vivo from "../Components/Vivo/Vivo";
 import GirlsCollection from "../Pages/ShopCategory/Fassion/GirlsCollection/GirlsCollection";
 import MenCollection from "../Pages/ShopCategory/Fassion/MenCollection/MenCollection";
 import KidsCollection from "../Pages/ShopCategory/Fassion/KidsCollection/KidsCollection";
+import Viewproduct from "../Components/Apple/Viewproduct";
 
 
 const router = createBrowserRouter ([
@@ -83,6 +84,10 @@ const router = createBrowserRouter ([
             {
                 path: "/apple",
                 element: <Apple />
+            },
+            {
+                path: "/viewproduct",
+                element: <Viewproduct />
             },
             {
                 path: "/blackberry",
