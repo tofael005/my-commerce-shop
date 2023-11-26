@@ -6,13 +6,13 @@ import { IoBookmarkOutline } from "react-icons/io5";
 
 import { FaPlus, FaMinus } from "react-icons/fa";
 
-const Viewproduct = () => {
+const ViewproductS = () => {
     return (
         <div className="max-w-[1240px] mx-auto mt-16 mb-16 px-2">
             <div className="flex flex-col md:flex-row gap-4">
-                <img className="w-[600px] mb-6" src={Image} alt="" />
+                <img className="w-[640px] mb-6" src="https://www.excelestore.com.bd/public/uploads/all/jgMosu41Gfx32OjVZXFgq2Ar8SHc81v7z5YwUkql.webp" alt="" />
                 <div>
-                    <h1 className="text-4xl font-bold mb-8 px-5">Iphone 14 Pro Max</h1>
+                    <h1 className="text-4xl font-bold mb-8 px-5">Samsung S23 Ultra</h1>
                     <div>
                         <div className="flex gap-5 items-center text-sm">
                             <div className="flex gap-2 items-center border-r-2 px-5">
@@ -28,7 +28,7 @@ const Viewproduct = () => {
                             <p className="text-sky-500">124 Answered Questions</p>
                         </div>
                         <div className="flex items-center gap-3 px-5 mt-2">
-                            <h1>Brand: <span className="text-sky-500">Apple</span></h1>
+                            <h1>Brand: <span className="text-sky-500">Samsung</span></h1>
                             <div className="flex gap-3 items-center">
                                 <IoMdShare className="cursor-pointer hover:text-sky-500 duration-300" />
                                 <IoBookmarkOutline className="cursor-pointer hover:text-sky-500 duration-300" />
@@ -70,7 +70,7 @@ const Viewproduct = () => {
                     </div>
 
                     <div className="flex gap-6 items-center px-5 mt-5 mb-10">
-                        <p>Sold by <span className="text-sky-500">Apple Gadget</span></p>
+                        <p>Sold by <span className="text-sky-500">My Commerce</span></p>
                         <p className="bg-sky-500 p-2 rounded-md text-white cursor-pointer">Visit Store</p>
                     </div>
                 </div>
@@ -79,4 +79,4 @@ const Viewproduct = () => {
     );
 };
 
-export default Viewproduct;
+export default ViewproductS;

@@ -26,6 +26,7 @@ import GirlsCollection from "../Pages/ShopCategory/Fassion/GirlsCollection/Girls
 import MenCollection from "../Pages/ShopCategory/Fassion/MenCollection/MenCollection";
 import KidsCollection from "../Pages/ShopCategory/Fassion/KidsCollection/KidsCollection";
 import Viewproduct from "../Components/Apple/Viewproduct";
+import ViewproductS from "../Components/Samsung/ViewproductS";
 
 
 const router = createBrowserRouter ([
@@ -89,6 +90,11 @@ const router = createBrowserRouter ([
                 path: "/viewproduct",
                 element: <Viewproduct />
             },
+            {
+                path: "/viewproducts",
+                element: <ViewproductS />
+            },
+
             {
                 path: "/blackberry",
                 element: <BlackBerry />
