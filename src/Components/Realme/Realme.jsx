@@ -3,9 +3,14 @@ import { Link } from "react-router-dom";
 
 const Realme = () => {
     return (
-        <div>
-            <h1>Realme</h1>
+        <div className="max-w-[1240px] mx-auto mt-10 mb-10 px-2">
+           
 
+
+           <div className="h-[100vh] mt-10">
+                <p className="text-5xl text-center font-bold mb-3">Comming SOON</p>
+                <h1 className="text-center font-semibold">All Realme Products</h1>
+            </div>
 
 
 

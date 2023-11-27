@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Mi = () => {
     return (
-        <div>
+        <div className="max-w-[1240px] mx-auto mt-10 mb-10 px-2">
 
 
             <div className="h-[100vh] mt-10">

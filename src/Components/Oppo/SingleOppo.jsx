@@ -2,15 +2,12 @@
 
 const SingleOppo = () => {
     return (
-        <div>
+        <div className="max-w-[1240px] mx-auto mt-10 mb-10 px-2">
             
 
 
-            <div className="h-[100vh] mt-10">
-                <p className="text-5xl text-center font-bold mb-3">Comming SOON</p>
-                <h1 className="text-center font-semibold">All Walton Products</h1>
-            </div>
-            
+            <h1>oppo SingleOppo</h1>
+
         </div>
     );
 };
