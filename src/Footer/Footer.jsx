@@ -1,6 +1,6 @@
 import logo from "../assets/logo.png"
-import logo1 from "../assets/footer/google-play-store4701.jpg"
-import logo2 from "../assets/footer/apple-app-store-appstore-icon-png-image-purepng-transparent-4.png"
+// import logo1 from "../assets/footer/google-play-store4701.jpg"
+// import logo2 from "../assets/footer/apple-app-store-appstore-icon-png-image-purepng-transparent-4.png"
 import { FaWhatsapp } from "react-icons/fa6";
 import { MdCallEnd } from "react-icons/md";
 
@@ -33,13 +33,13 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="justify-center items-center text-center mt-10">
+                    {/* <div className="justify-center items-center text-center mt-10">
                         <h1 className="font-bold mb-2">Download NOW</h1>
                         <div className="flex gap-3 justify-center items-center">
                             <img className="w-20 rounded-lg h-[70px]" src={logo1} alt="" />
                             <img className="w-20" src={logo2} alt="" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Most Popular Categories */}
