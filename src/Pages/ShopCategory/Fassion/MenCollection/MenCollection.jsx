@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import SingleMens from "./SingleMens";
 
 
 const MenCollection = () => {
@@ -14,7 +15,7 @@ const MenCollection = () => {
         <div className="max-w-[1240px] mx-auto mt-10 mb-10 px-2">
             <div>
                 {
-                    m
+                    mens.map((singleMens, i) => <SingleMens key={i} singleMens={singleMens}/>)
                 }
             </div>
         </div>
