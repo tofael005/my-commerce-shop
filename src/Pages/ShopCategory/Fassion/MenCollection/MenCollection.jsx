@@ -13,7 +13,7 @@ const MenCollection = () => {
 
     return (
         <div className="max-w-[1240px] mx-auto mt-10 mb-10 px-2">
-            <div>
+            <div className="grid md:grid-cols-5 gap-5">
                 {
                     mens.map((singleMens, i) => <SingleMens key={i} singleMens={singleMens}/>)
                 }
