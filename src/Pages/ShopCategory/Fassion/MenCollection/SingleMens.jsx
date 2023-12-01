@@ -1,9 +1,12 @@
-import React from 'react';
 
-const SingleMens = () => {
+
+const SingleMens = ({singleMens}) => {
+    const {title, image, price} = singleMens;
     return (
         <div>
-            <h1>mens</h1>
+            <div>
+                <img src={image} alt="" />
+            </div>
         </div>
     );
 };
