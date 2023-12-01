@@ -6,7 +6,7 @@ const KidsCollection = () => {
     const [kids, setKids] = useState([])
 
     useEffect(() =>{
-        fetch("https://fakestoreapi.com/products")
+        fetch("/kids.json")
         .then(res => res.json())
         .then(data => setKids(data))
     },[])
