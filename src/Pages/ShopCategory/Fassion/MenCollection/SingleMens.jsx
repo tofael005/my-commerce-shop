@@ -7,7 +7,7 @@ const SingleMens = ({ singleMens }) => {
             <div className="rounded-md shadow-black/10 shadow">
                 <img className="h-[260px] block mx-auto p-2" src={image} alt="" />
                 <div className="px-2">
-                    <h1 className="text-xl font-bold my-2">Mens Product.</h1>
+                    <h1 className="text-xl font-bold my-2">Mens Product..</h1>
                     <p>Price: BDT {price}/-</p>
                     <p>Rating: {rating.rate}</p>
                     <p>Count: {rating.count}</p>
