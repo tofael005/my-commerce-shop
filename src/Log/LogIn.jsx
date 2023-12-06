@@ -4,6 +4,7 @@ import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
 
 const LogIn = () => {
+    
     return (
         <div className="max-w-[1240px] mx-auto mt-3 px-2 mb-10">
 
@@ -14,7 +15,7 @@ const LogIn = () => {
                     <span className="">
                         <div className="rounded-md">
                             <h1 className="text-3xl my-3 font-semibold text-white text-center">Log In</h1>
-                            <form className="" action="">
+                            <form action="">
                                 <label className="text-xl text-white font-semibold" htmlFor="">Email: </label><br />
                                 <input className="md:w-[500px] mt-1 mb-2 w-[350px] p-3 rounded-md border bg-transparent " type="email" name="email" id="" placeholder="Enter your email" /><br />
                                 <label className="text-xl text-white font-semibold" htmlFor="">Password: </label><br />
