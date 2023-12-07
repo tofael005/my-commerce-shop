@@ -3,7 +3,7 @@
 const firebase = () => {
     return (
         <div>
-            <h1>hkld</h1>
+            <h1>hkld...</h1>
         </div>
     );
 };
