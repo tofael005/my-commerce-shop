@@ -15,7 +15,7 @@ const AllShop = () => {
                 <h1>Shop From <span className="text-[#008ECC] font-bold">Top Categories</span></h1>
                 <Link to="/multiple-shop">
                     <div className="flex gap-2 items-center cursor-pointer hover:bg-[#008ECC] duration-300 hover:text-white px-3 rounded">
-                        <h1>View All</h1>
+                        <h1>View All.</h1>
                         <IoIosArrowForward />
                     </div>
                 </Link>
