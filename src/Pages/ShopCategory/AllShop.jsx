@@ -59,7 +59,7 @@ const AllShop = () => {
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop4} alt="" />
                     </div>
-                    <Link to="/frozen"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Frozen Food.</h1></Link>
+                    <Link to="/frozen"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Frozen Food</h1></Link>
                 </div>
                 <div className="shadow rounded-md">
                     <div className="p-4 bg-slate-100 rounded-md">
