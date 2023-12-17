@@ -65,7 +65,7 @@ const AllShop = () => {
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop5} alt="" />
                     </div>
-                  <Link to="/grocery"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Items</h1></Link>
+                  <Link to="/grocery"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Grocery Items.</h1></Link>
                 </div>
             </div>
         </div>
