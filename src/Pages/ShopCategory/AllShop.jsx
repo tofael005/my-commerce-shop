@@ -35,7 +35,7 @@ const AllShop = () => {
                     <div className="p-4 bg-slate-100 rounded-md">
                         <img className="rounded-full border block mx-auto w-[100px] h-[100px]" src={shop6} alt="" />
                     </div>
-                    <Link to="/allPhone"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Gadghet & Device.</h1></Link>
+                    <Link to="/allPhone"><h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">Gadghet & Device</h1></Link>
                 </div>
                 <div className="shadow rounded-md">
                     <div className="p-4 bg-slate-100 rounded-md">
