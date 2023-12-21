@@ -10,7 +10,7 @@ import shop7 from "../../assets/Shop Category/shop7.jpg"
 const MultipleShop = () => {
     return (
         <div className="max-w-[1240px] mx-auto px-2 mt-10 mb-20">
-            <h1 className="my-3 text-sky-500">From all Shop</h1>
+            <h1 className="my-3 text-sky-500">From all Shop.</h1>
             <div className="grid md:grid-cols-3 gap-6 items-center">
                 <Link to="/fashion">
                     <div className="border hover:shadow-md duration-300 scale-100 hover:scale-95 rounded-md">
