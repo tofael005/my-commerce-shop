@@ -13,7 +13,7 @@ const Registration = () => {
 
                     <span className="">
                         <div className="rounded-md">
-                            <h1 className="text-3xl mt-6 font-semibold text-white text-center">Sign Up</h1>
+                            <h1 className="text-3xl mt-6 font-semibold text-white text-center">Sign Up.</h1>
                             <form className="" action="">
                                 <label className="text-xl text-white font-semibold" htmlFor="">Name: </label><br />
                                 <input className="md:w-[500px] mt-1 mb-2 w-[350px] p-3 rounded-md bg-transparent border" type="text" name="name" id="" placeholder="Enter your name" /><br />
